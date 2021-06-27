@@ -22,7 +22,7 @@
  
  ```sh
 git clone https://github.com/sauloiot/quotation-management.git 
-cd web-store
+cd quotation
 mvnw spring-boot:run
 ```
  Or you can open the project in an IDE and run the file "QuotationApplication" in src/main/java/com/management/quotation/QuotationApplication.java.
