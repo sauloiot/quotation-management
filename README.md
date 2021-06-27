@@ -5,7 +5,7 @@
   Is a REST based application which purpose is to store stock quotes from stock market.
  
  ## Links
- ### - [Postman containing all API requests](https://documenter.getpostman.com/view/5414747/Tzedi587)
+ ### - This api run on port 8081 [Postman containing all API requests](https://documenter.getpostman.com/view/5414747/Tzedi587)
   
  # Technologies and Tools Used
  - Java 11  
@@ -37,6 +37,10 @@ Generating docker image.
   ```sh
  mvnw spring-boot:build-image
  docker run -p 8081:8081 quotation:0.0.1-SNAPSHOT
+```
+Or push pre-existing image.
+  ```sh
+docker push sauloiot/quotation:0.0.1-SNAPSHOT
 ```
 
  # Author
